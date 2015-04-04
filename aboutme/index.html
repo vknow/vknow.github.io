@@ -1,13 +1,14 @@
-   <html>
+<html>
    <head>
        <title>You can call me, Vino</title>
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link href='http://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="vinothJs.js"></script>
        <link rel="stylesheet" href="css/bootstrap.min.css">
        <link rel="stylesheet" href="css/bootstrap.css">
        <link rel="stylesheet" href="css/mystyle.css">
-       <link rel="icon"  href="res/download.png">
+       <link rel="icon"  href="res/download1.png">
    </head>
    <body>
        <nav class="navbar navbar-staic-top borf" style="background-color:transparent">
@@ -17,43 +18,43 @@
                <li><a href="#profile">Profile</a></li>
                <li><a href="#edu">Education</a></li>
                <li><a href="#projects">Projects</a></li>
-               <li><a href="#">Skills</a></li>
-           </ul>
-       </div>
-   </div>
-</nav>
-<header>
-    <div class="container">
-        <div class="row" style="background:transparent">
-            <div class="col-md-3">
-                <img class="circular img-responsive" src="res/qw%20Cropped.jpg" alt="moiimage">
-            </div>
-            <div class="col-md-6" style="padding-top:30px;">  
-                <span class="fname">Vinoth</span>
-                <span class="lname">Kumar</span>
-                <span class="skills">Web Developer - Mobile Developer - System Analyst</span>
-            </div>
-            <div class="col-md-3" style="padding-top: 20px;">  
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <img src="res/mail2.png" style="height:32px" alt=""> 
-                        <code>vinothkumar.10@outlook.com</code>
-                    </li>
-                    <li class="list-group-item">
-                        <img src="res/facebook.png" style="height:32px" alt=""> 
-                        <code>facebook.com/vinoth.mit</code>
-                    </li>
-                    <li class="list-group-item">
-                        <img src="res/GitHub-Mark.png" style="height:32px" alt=""> 
-                        <code>github.com/vinothmit</code>
-                    </li>
-                </ul>
-            </div>  
-        </div>
-        <hr>
-        <div class="container">
-            <div class="row" id="profile">
-                <div class="col-lg-2 ">
+               <li><a href="#skills">Skills</a></li>
+             </ul>
+           </div>
+         </div>
+        </nav>
+        <header>
+            <div class="container">
+                <div class="row" style="background:transparent">
+                    <div class="col-md-3">
+                        <img class="circular img-responsive" src="res/qw%20Cropped.jpg" alt="moiimage">
+                    </div>
+                    <div class="col-md-6" style="padding-top:30px;">  
+                        <span class="fname">Vinoth</span>
+                        <span class="lname">Kumar</span>
+                        <span class="skills">Web Developer - Mobile Developer - System Analyst</span>
+                    </div>
+                    <div class="col-md-3" style="padding-top: 20px;">  
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <img src="res/mail2.png" style="height:32px" alt=""> 
+                                <code>vinothkumar.10@outlook.com</code>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="res/facebook.png" style="height:32px" alt=""> 
+                                <code>facebook.com/vinoth.mit</code>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="res/GitHub-Mark.png" style="height:32px" alt=""> 
+                                <code>github.com/vinothmit</code>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+                <hr id="profile">
+                    <div class="container">
+                    <div class="row" >
+                    <div class="col-lg-2 ">
                    <div class="circular1" > <b>About Me</b> </div>
                </div>
                <div class="col-lg-10 delt">
@@ -65,9 +66,9 @@
         </div>
         
     </div>
-    <hr>
+    <hr id="edu">
     <div class="container">
-        <div class="row" id="edu">
+        <div class="row" >
             <div class="col-lg-2">
                 <div class="circular1" > <b>Education</b> </div>
             </div>
@@ -86,9 +87,9 @@
             </div>
         </div>   
     </div>
-    <hr>
+    <hr id="projects">
     <div class="container">
-        <div class="row" id="projects">
+        <div class="row" >
             <div class="col-lg-2">
                 <div class="circular1" > <b>Projects</b> </div>
             </div>
@@ -98,34 +99,95 @@
                     <h5><em>Back End Developer</em></h5> 
                     <h5>
                         <ul class="temp">
-                            <li>Design and developed an online leave processing web application using Spring framework involving n-tier architecure </li>
+                            <li>Design and developed an online leave processing web application on Spring framework with n-tier architecure using JPA with MYSQL database </li>
                             <li>
-                                The project is done using RUP development process
+                            My involvement is in development of the approval of leave and criteria for applying leaves and finally to integrate the whole project.
                             </li>
                         </ul> 
                     </h5>
                 </div>
             <hr>
                 <div>  
-                    <h4>University Store Processing System</h4>
+                    <h4>University Stationary Inventory Processing System</h4>
                     <h5><em>Android Development and Web Service</em></h5> 
                     <h5>
                         <ul class="temp">
                             <li>
-                                Developed android applicaiton to make store requesition by the University&#39;s Employee and to process those request
+                                Developed android applicaiton to make store requesition by the University&#39;s Employees and to process based on those request.
                             </li>
                             <li>
-                                Used 
+                            The system handles multiple request from different users and process accordingly to the priority of  the request, also handle delegation assignment in different departments.
+                            </li>
+                            <li>
+                            The project is done usign android framawork, KSoap library  and used  aspx as webservice.  
                             </li>
                         </ul>
                     </h5>
                 </div>
+                <hr>
+                <div>  
+                    <h4>Probabilistic Search Service based on User History in Cloud</h4>
+                    <h5><em>FrontEnd Developer</em></h5> 
+                    <h5>
+                        <ul class="temp">
+                            <li>
+                               The project deals with an efficient way of producing search engine result pages(SERP) for the users based on user history and recommendation engine which produces suggestions for user with fast response time.
+                            </li>
+                            <li>
+                            It was implemented using HTML,PHP, NOSQL, Couch Base with Hadoop Framework.
+                            </li>
+                          
+                        </ul>
+                    </h5>
+                </div>
+                <hr>
+                <div>  
+                    <h4>Save Images Android Prject</h4>
+                    <h5><em>Mobile Developer</em></h5> 
+                    <h5>
+                        <ul class="temp">
+                            <li>
+                            The application is to upload and download picture taken using android phone , and to store based on  location, date or time.
+                            </li>
+                            <li>
+                           The backend was using Java REST API to retrieve the image information and to add images to database and GoogleMaps API to taging locations.
+                            </li>
+                          <li>
+                              My work responsible for developing both the user interface and backend for the project. 
+                          </li>
+                        </ul>
+                    </h5>
+                </div>
+                <hr>
             </div>
         </div>   
     </div>
-<hr>
+<hr id="skills">
+ <div class="container">
+        <div class="row" >
+            <div class="col-lg-2">
+                <div class="circular1" > <b>Skills</b> </div>
+            </div>
+            <div class="col-lg-10 " style="font-family: Alegreya SC; color:#fff">
+            
+            </div>
+        </div>   
+    </div>
+    <hr>
 </div>
 </header>
-
+<div id="onmotion" class="navbar borf" style="visibility: hidden">
+         <div class="container">
+               <div id="navbar" class="navbar-collapse collapse">
+             <ul class="nav navbar-nav">
+              <li> <img src="res/download1.png" alt="myimg" class="compressimg"></li>
+               <li><a href="#profile">Profile</a></li>
+               <li><a href="#edu">Education</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#">Skills</a></li>
+           </ul>
+       </div>
+   </div>
+</div>
 </body>
 </html>
