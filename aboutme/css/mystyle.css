@@ -3,7 +3,7 @@ ul>li>a {
 }
 
 body {
-    background: url(../res/noisy_net_@2X.png)
+    background: url(../res/1.jpg) 
 }
 
 .borf {
@@ -84,9 +84,9 @@ header .skills {
     height: 150px
 }
 
-.temp>li {
-    list-style-type: circle;
-    line-height: 2
+.list-sty>li {
+    list-style-type: square;
+    line-height: 1.7
 }
 
 .compressimg {
@@ -95,6 +95,22 @@ header .skills {
 }
 
 a {
-    font-family: "Alegreya SC";    
+    font-family: "Alegreya SC";
 }
-  
+
+.sty-box {
+    line-height: 1.7;
+    box-shadow: 0.5em 0 0 #fff, -0.5em 0 0 #fff;
+    background-color: #fff;
+    color: rgb(22, 27, 32);
+    font-weight: bold;
+}
+
+.details {
+    width: 100%;
+    font-size: initial;
+}
+
+.fulwidth {
+    width: 100%;
+}
