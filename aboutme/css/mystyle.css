@@ -1,93 +1,100 @@
-ul>li>a{
-  color: #fff;
+ul>li>a {
+    color: #fff
 }
 
-body{
-  background: url(../res/noisy_net_@2X.png) repeat;
+body {
+    background: url(../res/noisy_net_@2X.png)
 }
-.borf{
-  border-bottom-color: #fff;
-  border-bottom-style: solid 2px;
+
+.borf {
+    border-bottom-color: #fff;
 }
-.nav>li>a:hover{
-  color: #000;
-  background-color: #ffffff;
+
+.nav>li>a:hover {
+    color: #000;
+    background-color: #fff
 }
-.circular{
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+.circular {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8)
 }
-.circular1{
+
+.circular1 {
     margin-bottom: 10px;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  background-color: #fff;
-  text-align: center;
-  color: #000;
-  font-size: 25px;
-    color: rgb(26, 136, 205);
-  line-height: 150px;
-  font-family: Alegreya SC;
-    -webkit-box-shadow: 5px -1px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow:    5px -1px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow:         5px -1px 5px 0px rgba(0, 0, 0, 0.75);
-}
-header .container {
-  padding-top: 25px;
-  padding-bottom: 25px;
-    
-}
- 
-header .fname {
-  font-size: 4.75em;
-  color: rgb(26, 136, 205); 
-  display: block;
-  text-transform: uppercase;
-  font-size: 4em;
-  line-height: .3em;
-  font-weight: 700;
-  text-shadow:1px 1px 4px rgba(11, 22, 40, 1);
-  text-align:left;
-  font-family:arial, helvetica, sans-serif;
-
-}
-header .lname {
- font-size: 4.75em;
- color: rgb(26, 136, 205); 
- display: block;
- text-transform: uppercase;
- font-size: 6em;
- font-weight: 700;
- text-shadow:1px 1px 4px rgba(11, 22, 40, 1);
- text-align:left;
- font-family:arial, helvetica, sans-serif;
-
-}
-header .skills {
-  font-size: 17;
-  color: #ccc;
-  float: left;
-  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.delt{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
     text-align: center;
-  height: 150px;
+    font-size: 25px;
+    color: #1a88cd;
+    line-height: 150px;
+    font-family: Alegreya SC;
+    -webkit-box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75);
+    -moz-box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75);
+    box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75)
 }
 
-.temp>li{
-list-style-type: circle;
-    line-height: 2;
+header .container {
+    padding-top: 25px;
+    padding-bottom: 25px
 }
-.compressimg{
+
+header .fname {
+    color: #1a88cd;
+    display: block;
+    text-transform: uppercase;
+    font-size: 4em;
+    line-height: .3em;
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(11, 22, 40, 1);
+    text-align: left;
+    font-family: arial, helvetica, sans-serif
+}
+
+header .lname {
+    color: #1a88cd;
+    display: block;
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(11, 22, 40, 1);
+    text-align: left;
+    font-family: arial, helvetica, sans-serif
+}
+
+header .skills {
+    font-size: 17;
+    color: #ccc;
+    float: left;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.delt {
+    text-align: center;
+    height: 150px
+}
+
+.temp>li {
+    list-style-type: circle;
+    line-height: 2
+}
+
+.compressimg {
     width: 50px;
-    height: 50px;
+    height: 50px
 }
+
+a {
+    font-family: "Alegreya SC";    
+}
+  
