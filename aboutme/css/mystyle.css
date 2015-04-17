@@ -186,7 +186,13 @@ a {
     z-index: 1000;
     line-height: 90px
 }
-
 .sign {
     font-family: 'Seaweed Script', cursive;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
 }
