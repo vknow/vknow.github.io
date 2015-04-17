@@ -13,6 +13,7 @@ $(document).ready(function() {
                 "position": "fixed",
                 "top": "0",
                 "width": "100%",
+                "z-index": "2000",
                 "background-color": "rgb(20, 25, 30)",
                 "margin-top": "-50px"
             });
