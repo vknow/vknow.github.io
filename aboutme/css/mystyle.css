@@ -170,14 +170,14 @@ a {
 }
 
 .circl {
-    background-color: rgb(20, 25, 30);
+    background-color: #fff;
     width: 90px;
     height: 90px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     position: relative;
-    color: #fff;
+    color: rgb(26, 31, 36);
     text-align: center;
     font-family: "Pacifico";
     top: 5px;
