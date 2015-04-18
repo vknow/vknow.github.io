@@ -197,3 +197,7 @@ a {
     background-color: #cccccc;
     border-radius: 1px;
 }
+
+.text-muted a {
+    color: #888;
+}

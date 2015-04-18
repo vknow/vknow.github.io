@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    $(function() {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
     var flag = false;
     $(document).scroll(function() {
         var scrol = $(this).scrollTop();
