@@ -1,9 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Seaweed+Script);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
 ul>li>a {
     color: #fff
 }
-
+p.details,ul.details{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bolder;
+}
 body {
     background: url(../res/noisy_net_@2X.png)
 }
