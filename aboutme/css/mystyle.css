@@ -4,16 +4,19 @@
 ul>li>a {
     color: #fff
 }
-p.details,ul.details{
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bolder;
+
+p.details,
+ul.details {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder
 }
+
 body {
     background: url(../res/noisy_net_@2X.png)
 }
 
 .borf {
-    border-bottom-color: #fff;
+    border-bottom-color: #fff
 }
 
 .nav>li>a:hover {
@@ -29,9 +32,9 @@ body {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8)
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8)
 }
 
 .circular1 {
@@ -49,20 +52,19 @@ body {
     color: #1a88cd;
     line-height: 150px;
     font-family: Alegreya SC;
-    -moz-box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, 0.75);
-    box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, 0.75)
+    -moz-box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75);
+    -webkit-box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75);
+    box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75)
 }
 
 header .container {
-    padding-top: 25px;
-    /*padding-bottom: 25px*/
+    padding-top: 25px
 }
 
 .profileme {
     color: #fff;
     padding: 10px;
-    font-family: Alegreya SC;
+    font-family: Alegreya SC
 }
 
 header .fname {
@@ -98,7 +100,7 @@ header .skills {
 }
 
 .delt {
-    text-align: center;
+    text-align: center
 }
 
 .list-sty>li {
@@ -112,35 +114,35 @@ header .skills {
 }
 
 a {
-    font-family: "Alegreya SC";
+    font-family: "Alegreya SC"
 }
 
 .sty-box {
     line-height: 1.7;
-    -moz-box-shadow: 0.2em 0 0 #fff, -0.2em 0 0 #fff;
-    -webkit-box-shadow: 0.2em 0 0 #fff, -0.2em 0 0 #fff;
-    box-shadow: 0.2em 0 0 #fff, -0.2em 0 0 #fff;
+    -moz-box-shadow: .2em 0 0 #fff, -.2em 0 0 #fff;
+    -webkit-box-shadow: .2em 0 0 #fff, -.2em 0 0 #fff;
+    box-shadow: .2em 0 0 #fff, -.2em 0 0 #fff;
     background-color: #fff;
-    color: rgb(22, 27, 32);
-    font-weight: bold
+    color: #161b20;
+    font-weight: 700
 }
 
 .details {
     width: 100%;
-    font-size: initial;
+    font-size: initial
 }
 
 .fulwidth {
-    width: 100%;
+    width: 100%
 }
 
 .su_language {
     position: relative;
-    font-size: 15px;
+    font-size: 15px
 }
 
 .circlemeter {
-    margin: 15px;
+    margin: 15px
 }
 
 .circle {
@@ -150,7 +152,7 @@ a {
     -webkit-border-radius: 50%;
     -khtml-border-radius: 50%;
     border-radius: 50%;
-    position: absolute;
+    position: absolute
 }
 
 .cut {
@@ -164,13 +166,13 @@ a {
 .cl_green {
     position: absolute;
     clip: rect(0 100px 100px 50px);
-    background-color: rgb(26, 136, 205)
+    background-color: #1a88cd
 }
 
 .cl_red {
     position: absolute;
     clip: rect(0 50px 100px 0);
-    background-color: rgb(26, 136, 205)
+    background-color: #1a88cd
 }
 
 .circl {
@@ -181,9 +183,9 @@ a {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     position: relative;
-    color: rgb(26, 31, 36);
+    color: #1a1f24;
     text-align: center;
-    font-family: "Pacifico";
+    font-family: Pacifico;
     top: 5px;
     left: 5px;
     z-index: 1000;
@@ -191,20 +193,18 @@ a {
 }
 
 .sign {
-    font-family: 'Seaweed Script', cursive;
+    font-family: 'Seaweed Script', cursive
 }
 
 .navbar-toggle .icon-bar {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: #cccccc;
-    border-radius: 1px;
+    background-color: #ccc;
+    border-radius: 1px
 }
 
+.text-muted .profileme,
 .text-muted a {
-    color: #888;
-}
-.text-muted .profileme{
-    color: #888;
+    color: #888
 }
