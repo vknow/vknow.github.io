@@ -19,6 +19,39 @@
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="icon" href="res/download1.png">
 </head>
+<style>
+.ig-b- {
+    display: inline-block;
+}
+
+.ig-b- img {
+    visibility: hidden;
+}
+
+.ig-b-:hover {
+    background-position: 0 -60px;
+}
+
+.ig-b-:active {
+    background-position: 0 -120px;
+}
+
+.ig-b-48 {
+    background: url(//badges.instagram.com/static/images/ig-badge-sprite-48.png) no-repeat 0 0;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    .ig-b-48 {
+        background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-48@2x.png);
+        background-size: 60px 178px;
+    }
+}
+</style>
 
 <body>
     <nav class="navbar navbar-staic-top borf" style="background-color:transparent" role="navigation">
@@ -52,7 +85,7 @@
                 <div class="col-md-6" style="padding-top:30px;">
                     <span class="fname">Vinoth</span>
                     <span class="lname">Kumar</span>
-                    <span class="skills">Web Developer - Mobile Developer - System Analyst</span>
+                    <span class="skills" style="margin-top:-25px">Web Developer - Mobile Developer - System Analyst</span>
                 </div>
                 <div class="col-md-3" style="padding-top: 20px;">
                     <ul class="list-group">
@@ -306,9 +339,10 @@
         <div class="container">
             <p class="text-muted pull-left">
                 <span class="profileme">Conntect to me </span>
-                <a href="https://facebook.com/vinothmit" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="view my social skill"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
-                <a href="https://sg.linkedin.com/pub/vinoth-kumar/45/952/7" target="_blank" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="view my job"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-                <a href="https://twitter.com/vin049" target="_blank" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="see my tweets"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+                <a href="https://facebook.com/vinothmit" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="My social life"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+                <a href="https://sg.linkedin.com/pub/vinoth-kumar/45/952/7" target="_blank" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="View my academic"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+                <a href="https://twitter.com/vin049" target="_blank" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="See my tweets"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+                <a href="http://instagram.com/vinothloves?ref=badge" target="_blank" data-toggle="tooltip" data-html="true" data-placement="right" title="" data-original-title="I &#9829; photography"class="ig-b- ig-b-48"><i class="fa fa-instagram"></i></a>
             </p>
             <p class="text-muted pull-right"><span class="profileme">Designed by</span><span class="sign">Vinoth Kumar</span><span class=" profileme" style="display: none;">&copy;Suga</span></p>
         </div>
