@@ -166,13 +166,15 @@ a {
 .cl_green {
     position: absolute;
     clip: rect(0 100px 100px 50px);
-    background-color: #1a88cd
+    background-color: #1a88cd;
+    -webkit-transition: 1s ease-in-out;
 }
 
 .cl_red {
     position: absolute;
     clip: rect(0 50px 100px 0);
-    background-color: #1a88cd
+    background-color: #1a88cd;
+    -webkit-transition: 10s ease-in-out;
 }
 
 .circl {
@@ -207,4 +209,10 @@ a {
 .text-muted .profileme,
 .text-muted a {
     color: #888
+}
+@media (max-width: 1200px){
+    .col-lg-10 .col-lg-2{
+        width:170px;
+        float:left;
+    }
 }

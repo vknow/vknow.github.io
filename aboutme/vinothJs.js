@@ -39,6 +39,8 @@ $(document).ready(function() {
         }
     })
     var value = document.getElementsByClassName('cut');
+     
+
     for (var i = 0; i < value.length; i++) {
         value[i].style.webkitTransform = "rotate(" + value[i].getAttribute('data-rot') + "deg)";
         value[i].style.MozTransform = "rotate(" + value[i].getAttribute('data-rot') + "deg)";
