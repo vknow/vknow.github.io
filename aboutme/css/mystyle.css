@@ -1,6 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Seaweed+Script);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+body {
+    background: url(../res/noisy_net_@2X.png)
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #1a88cd;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 0, 0, 0.display: block;
+    4);
+}
+::moz-scrollbar{
+    width: 5px;
+}
 ul>li>a {
     color: #fff
 }
@@ -9,10 +37,6 @@ p.details,
 ul.details {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder
-}
-
-body {
-    background: url(../res/noisy_net_@2X.png)
 }
 
 .borf {
@@ -167,14 +191,20 @@ a {
     position: absolute;
     clip: rect(0 100px 100px 50px);
     background-color: #1a88cd;
-    -webkit-transition: 1s ease-in-out;
+    -webkit-transition: 5s ease-in-out;
+    moz-transition: 5s ease-in-out;
+    -o-transition: 5s ease-in-out;
+    transition:all 5s ease-in-out;
 }
 
 .cl_red {
     position: absolute;
     clip: rect(0 50px 100px 0);
     background-color: #1a88cd;
-    -webkit-transition: 10s ease-in-out;
+    -webkit-transition: 5s ease-in-out;
+    moz-transition: 5s ease-in-out;
+    -o-transition: 5s ease-in-out;
+    transition:all 5s ease-in-out;
 }
 
 .circl {
@@ -210,9 +240,10 @@ a {
 .text-muted a {
     color: #888
 }
-@media (max-width: 1200px){
-    .col-lg-10 .col-lg-2{
-        width:170px;
-        float:left;
+
+@media (max-width: 1200px) {
+    .col-lg-10 .col-lg-2 {
+        width: 170px;
+        float: left;
     }
 }
