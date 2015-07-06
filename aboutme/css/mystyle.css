@@ -26,9 +26,11 @@ body {
     background: rgba(255, 0, 0, 0.display: block;
     4);
 }
-::moz-scrollbar{
+
+::moz-scrollbar {
     width: 5px;
 }
+
 ul>li>a {
     color: #fff
 }
@@ -191,20 +193,20 @@ a {
     position: absolute;
     clip: rect(0 100px 100px 50px);
     background-color: #1a88cd;
-    -webkit-transition: 5s ease-in-out;
-    moz-transition: 5s ease-in-out;
-    -o-transition: 5s ease-in-out;
-    transition:all 5s ease-in-out;
+    /*-webkit-transition: all 5s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -o-transition: all 5s ease-in-out;
+    transition: all 5s ease-in-out;*/
 }
 
 .cl_red {
     position: absolute;
     clip: rect(0 50px 100px 0);
     background-color: #1a88cd;
-    -webkit-transition: 5s ease-in-out;
-    moz-transition: 5s ease-in-out;
-    -o-transition: 5s ease-in-out;
-    transition:all 5s ease-in-out;
+    /*-webkit-transition: -webkit-transform 5s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -o-transition: all 5s ease-in-out;
+    transition: -webkit-transform 5s ease-in-out;*/
 }
 
 .circl {

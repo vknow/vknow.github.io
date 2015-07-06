@@ -39,9 +39,13 @@ $(document).ready(function() {
         }
     })
     var value = document.getElementsByClassName('cut');
-     
+
 
     for (var i = 0; i < value.length; i++) {
+        value[i].style.setProperty("-webkit-transition", "transform 5s linear");
+        value[i].style.setProperty("-moz-transition", "transform 5s linear");
+        value[i].style.setProperty("-o-transition", "transform 5s linear");
+        value[i].style.setProperty("transition", "transform 5s linear");
         value[i].style.webkitTransform = "rotate(" + value[i].getAttribute('data-rot') + "deg)";
         value[i].style.MozTransform = "rotate(" + value[i].getAttribute('data-rot') + "deg)";
         value[i].style.msTransform = "rotate(" + value[i].getAttribute('data-rot') + "deg)";
