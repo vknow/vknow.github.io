@@ -1,0 +1,281 @@
+/*!
+ * Created for learning 
+ * @author Web
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Seaweed+Script);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+body {
+    background: url(../res/noisy_net_@2X.png);
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: #1a88cd;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .5)
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: 0 0
+}
+
+.circular,
+.circular1 {
+    background-repeat: no-repeat;
+    background-position: 50%
+}
+
+.circular1,
+.nav>li>a:hover,
+.sty-box {
+    background-color: #fff
+}
+
+::moz-scrollbar {
+    width: 5px
+}
+
+ul>li>a {
+    color: #fff
+}
+
+p.details,
+ul.details {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder
+}
+
+.circular1,
+.profileme {
+    font-family: Alegreya SC
+}
+
+.borf {
+    border-bottom-color: #fff
+}
+
+.nav>li>a:hover {
+    color: #000
+}
+
+.circular {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8)
+}
+
+.circular1 {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+    color: #1a88cd;
+    line-height: 150px;
+    -moz-box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75);
+    -webkit-box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75);
+    box-shadow: 5px -1px 5px 0 rgba(0, 0, 0, .75)
+}
+
+.circle,
+.circular1 {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 40px
+}
+
+main .container {
+    padding: 25px 10px;
+}
+
+.profileme {
+    color: #fff;
+    padding: 10px
+}
+
+main .fname,
+main .lname {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1a88cd;
+    text-shadow: 1px 1px 4px rgba(11, 22, 40, 1);
+    text-align: left;
+    font-family: arial, helvetica, sans-serif
+}
+
+main .fname {
+    font-size: 4em;
+    line-height: .3em
+}
+
+main .lname {
+    font-size: 6em
+}
+
+.circl,
+.delt {
+    text-align: center
+}
+
+main .skills {
+    font-size: 17;
+    color: #ccc;
+    float: left;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.list-sty>li {
+    list-style-type: square;
+    line-height: 1.7
+}
+
+.compressimg {
+    width: 50px;
+    height: 50px
+}
+
+.details,
+.fulwidth {
+    width: 100%
+}
+
+a {
+    font-family: "Alegreya SC"
+}
+
+.sty-box {
+    line-height: 1.7;
+    -moz-box-shadow: .2em 0 0 #fff, -.2em 0 0 #fff;
+    -webkit-box-shadow: .2em 0 0 #fff, -.2em 0 0 #fff;
+    box-shadow: .2em 0 0 #fff, -.2em 0 0 #fff;
+    color: #161b20;
+    font-weight: 700
+}
+
+.cl_green,
+.cl_red {
+    background-color: #1a88cd
+}
+
+.details {
+    font-size: initial
+}
+
+.circle,
+.cut {
+    width: 100px;
+    height: 100px
+}
+
+.su_language {
+    position: relative;
+    font-size: 15px
+}
+
+.circle,
+.cl_green,
+.cl_red {
+    position: absolute
+}
+
+.circlemeter {
+    margin: 15px
+}
+
+.circle {
+    -khtml-border-radius: 50%;
+    border-radius: 50%
+}
+
+.cut {
+    border-radius: 50%
+}
+
+.circl,
+.cut {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%
+}
+
+.cl_green {
+    clip: rect(0 100px 100px 50px)
+}
+
+.cl_red {
+    clip: rect(0 50px 100px 0)
+}
+
+.circl {
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    color: #1a1f24;
+    font-family: Pacifico;
+    top: 5px;
+    left: 5px;
+    z-index: 1000;
+    line-height: 90px
+}
+
+.sign {
+    font-family: 'Seaweed Script', cursive
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #ccc;
+    border-radius: 1px
+}
+
+#tp {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    display: block;
+    padding: 5px;
+    bottom: -100px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.text-muted .profileme,
+.text-muted a {
+    color: #888
+}
+
+@media (max-width:1200px) {
+    .col-lg-10 .col-lg-2 {
+        width: 170px;
+        float: left
+    }
+}
