@@ -122,6 +122,10 @@ main .container {
     padding: 10px
 }
 
+p.profileme{
+    line-height:1.6;
+}
+
 main .fname,
 main .lname {
     display: block;
