@@ -124,6 +124,8 @@ main .container {
 
 p.profileme{
     line-height:1.6;
+        word-spacing: 5px;
+    font-size: 19px;
 }
 
 main .fname,
