@@ -15,11 +15,11 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             $('#tp').stop().animate({
-                bottom: '20px'    
+                bottom: '20px'
             }, 500);
         } else {
             $('#tp').stop().animate({
-               bottom: '-100px'    
+               bottom: '-100px'
             }, 500);
         }
     });
@@ -28,7 +28,7 @@ $(document).ready(function() {
             scrollTop: 0
         }, 500, function() {
             $('#tp').stop().animate({
-                bottom: '-100px'    
+                bottom: '-100px'
             }, 500);
         });
     });
