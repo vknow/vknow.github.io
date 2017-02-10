@@ -1,5 +1,5 @@
 /*!
- * Created for learning 
+ * Created for learning
  * @author Web
  */
 
@@ -68,9 +68,15 @@ ul.details {
     font-family: Alegreya SC
 }
 
+.init-white h4,
+.init-white h5 {
+    color: #ffffff;
+    font-family: Alegreya SC;
+}
+
 .borf {
     border-bottom-color: #fff;
-    background: inherit;
+    background-color: rgb(21, 26, 31);
 }
 
 .nav>li>a:hover {
@@ -122,14 +128,15 @@ main .container {
     padding: 10px
 }
 
-p.profileme{
-    line-height:1.6;
-        word-spacing: 5px;
+p.profileme {
+    line-height: 1.6;
+    word-spacing: 5px;
     font-size: 19px;
 }
 
 main .fname,
 main .lname {
+    line-height: initial;
     display: block;
     font-weight: 700;
     text-transform: uppercase;
@@ -141,7 +148,6 @@ main .lname {
 
 main .fname {
     font-size: 4em;
-    line-height: .3em
 }
 
 main .lname {
@@ -154,9 +160,7 @@ main .lname {
 }
 
 main .skills {
-    font-size: 17;
     color: #ccc;
-    float: left;
     font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
     font-weight: 700;
     text-transform: uppercase
@@ -284,9 +288,26 @@ a {
     color: #888
 }
 
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
 @media (max-width:1200px) {
     .col-lg-10 .col-lg-2 {
         width: 170px;
         float: left
+    }
+}
+
+@media (max-width:480px) {
+    main .fname {
+        font-size: 3em;
+    }
+    main .lname {
+        font-size: 4em
     }
 }
